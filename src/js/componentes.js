@@ -1,23 +1,23 @@
-// import '../css/componentes.css';
+import '../css/componentes.css';
 
-// import webpacklogo from '../assets/img/webpack-logo.png';
+//import webpacklogo from '../assets/img/webpack-logo.png';
 
-// export const saludar = (nombre) => {
+export const saludar = (nombre) => {
 
-//     console.log( 'Creando etiqueta h1' );
+    console.log( 'Creando etiqueta h1' );
 
-//     const h1 = document.createElement('h1');
-//     h1.innerText = `Hola ${nombre}!!!!`;
+    const h1 = document.createElement('h1');
+    h1.innerText = `Hola ${nombre}!!!!`;
 
-//     document.body.append( h1 );
-
-
-    // Img
-
-    // console.log(webpacklogo);
-    // const img = document.createElement('img');
-    // img.src = webpacklogo;
-    // document.body.append( img );
+    document.body.append( h1 );
 
 
-//}
+    Img
+
+    console.log(webpacklogo);
+    const img = document.createElement('img');
+    img.src = webpacklogo;
+    document.body.append( img );
+
+
+}
